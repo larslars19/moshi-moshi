@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+.title {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .logo {
+    font-family: "Emilys Candy", serif;
+  font-weight: 700;
+  font-style: normal;
+  }

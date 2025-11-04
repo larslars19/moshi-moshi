@@ -1,0 +1,71 @@
+<h1 class="logo text-5xl py-3 pl-15">who are you sempai</h1>
+<div class="bg-pink-50 min-h-[90vh] flex flex-col items-center justify-center align-middle bg-[url(/pics/register-pic.png)] bg-cover">
+  <form class="flex flex-col w-lg gap-10">
+    <div class="flex flex-col gap-1">
+    <label>Płeć: </label>
+    
+    <label for="woman">
+      <p class="has-checked:bg-blue-300 h-10 flex justify-between bg-gray-200 rounded-full px-5 items-center cursor-pointer">Kobieta ♀︎
+        <input type="radio" id="woman" name="sex" class=""></p>
+    </label>
+    <label for="man">
+      <p class="has-checked:bg-blue-300 h-10 flex justify-between bg-gray-200 rounded-full px-5 items-center cursor-pointer">Męzczyzna ♂︎
+        <input type="radio" id="man" name="sex" class=""></p>
+    </label>
+    <label for="other">
+      <p class="has-checked:bg-blue-300 h-10 flex justify-between bg-gray-200 rounded-full px-5 items-center cursor-pointer">Inne ⚧
+        <input type="radio" id="other" name="sex" class=""></p>
+    </label>
+    
+    <label for="nick">Imię:</label>
+    <input type="text" id="nick" class="border-2 rounded-full mb-5">
+
+    <label for="birthdate">Data urodzenia:</label>
+    <input type="date" id="birthdate" placeholder="dd.mm.rrrr" class="border-2 rounded-full mb-5">
+    <!-- @if (today: number = Date.now();) {
+      <h2>Happy birthday</h2>
+      } 
+      
+      check if person <18 y.o. then inform FBI 
+      -->
+
+  </div>
+  <div class="flex flex-col items-center gap-2">
+    <a href="/login" class=" text-white py-4 px-8 rounded-full text-xl bg-pink-700 text-center w-3xs">Dalej</a>
+  </div>
+  </form>
+
+  <nav aria-label="Progress" class="flex flex-row absolute bottom-10">
+    <ol role="list" class="flex flex-row gap-10 text-5xl">
+      <li>
+        <!-- Completed Step -->
+        <div aria-hidden="true">
+          <div></div>
+        </div>
+        <a href="#">
+          <span class="map">🍎</span>
+        </a>
+      </li>
+      <li>
+        <!-- Current Step -->
+        <div aria-hidden="true" class="maq mas mau mba">
+          <div class="may maz mbo"></div>
+        </div>
+        <a href="#" aria-current="step" class="mar mau max mba mbb mbc mbd mbf mbj">
+          <span aria-hidden="true" class="mav mbc mbk"></span>
+          <span class="map">🍒</span>
+        </a>
+      </li>
+      <li class="mar mbq mca">
+        <!-- Upcoming Step -->
+        <div aria-hidden="true" class="maq mas mau mba">
+          <div class="may maz mbo"></div>
+        </div>
+        <a href="#" class="mbu mar mau max mba mbb mbc mbd mbh mbj mbx">
+          <span aria-hidden="true" class="mav mbc mbm mbv"></span>
+          <span class="map">🍆</span>
+        </a>
+      </li>
+    </ol>
+  </nav>
+</div>
