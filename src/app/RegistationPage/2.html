@@ -1,0 +1,56 @@
+<div class="bg-pink-50 min-h-[90vh] flex flex-col items-center justify-center align-middle bg-[url(/pics/register-pic.png)] bg-cover">
+  <form class="flex flex-col w-lg gap-5">
+    <div class="flex flex-col">
+      <div class="flex flex-col mb-10">
+        <h4 class="text-4xl font-bold">Dodaj pierwsze dwa zdjęcia</h4>
+        <p>Tematy na pierwsze rozmowy bardzo pomagają! Pokaz się ze zwierzakiem, jedzeniem lub na konwencie. 🐼</p>
+      </div>
+
+      <div class="flex items-center justify-center w-full gap-5">
+        <label for="dropzone-file" class="flex flex-col items-center justify-center w-1/2 h-64 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:bg-gray-200 hover:bg-gray-100  dark:hover:border-gray-500 dark:hover:bg-gray-400">
+            <div class="flex flex-col items-center justify-center pt-5 pb-6">
+                <p class="text-5xl text-gray-500">+</p>
+                <p class="mb-2 text-sm text-gray-500">Dodaj zdjęcia</p>
+            </div>
+            <input id="dropzone-file" type="file" class="hidden" accept=".png, .jpg, .jpeg"/>
+        </label>
+        <label for="dropzone-file" class="flex flex-col items-center justify-center w-1/2 h-64 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:bg-gray-200 hover:bg-gray-100  dark:hover:border-gray-500 dark:hover:bg-gray-400">
+            <div class="flex flex-col items-center justify-center pt-5 pb-6">
+                <p class="text-5xl text-gray-500">+</p>
+                <p class="mb-2 text-sm text-gray-500">Dodaj zdjęcia</p>
+            </div>
+            <input id="dropzone-file" type="file" class="hidden" accept=".png, .jpg, .jpeg"/>
+        </label>
+        </div>
+      </div> 
+
+  <div class="flex flex-col items-center">
+    <a href="/registration/3" class=" text-white py-3 px-8 rounded-full text-xl bg-pink-700 text-center w-3xs">Dalej</a>
+  </div>
+  </form>
+
+  <nav aria-label="Progress" class="flex flex-row absolute bottom-5">
+    <ol role="list" class="flex flex-row gap-10 text-5xl">
+      <li>
+        <!-- Completed Step -->
+        <a href="/registration/1">
+          <span class="map">🍎</span>
+        </a>
+      </li>
+      <li>
+        <!-- Current Step -->
+        <a href="/registration/2" aria-current="step" class="">
+          <span aria-hidden="true" class=""></span>
+          <span class="map">🍒</span>
+        </a>
+      </li>
+      <li class="mar mbq mca">
+        <!-- Upcoming Step -->
+        <a href="/registration/3" class="">
+          <span aria-hidden="true" class=""></span>
+          <span class="map">🍆</span>
+        </a>
+      </li>
+    </ol>
+  </nav>
+</div>

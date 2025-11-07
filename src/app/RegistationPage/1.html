@@ -1,0 +1,74 @@
+<div class="bg-pink-50 min-h-[90vh] flex flex-col items-center justify-center align-middle bg-[url(/pics/register-pic.png)] bg-cover">
+  <form class="flex flex-col w-lg gap-5">
+    <div class="flex flex-col gap-1">
+      <fieldset>
+        <legend class="text-md/6 font-semibold px-2">Płeć:</legend>
+     
+        <label for="woman" class="block cursor-pointer mb-2">
+        <input type="radio" id="woman" name="sex" value="woman" class="peer hidden">
+        <div class="peer-checked:bg-blue-300 h-10 flex justify-between bg-gray-200 rounded-full px-5 items-center">
+          Kobieta 
+          <span class="justify-end text-xl">♀︎</span>
+        </div>
+        </label>
+
+        <label for="man" class="block cursor-pointer mb-2">
+          <input type="radio" id="man" name="sex" value="man" class="peer hidden">
+          <div class="peer-checked:bg-blue-300 h-10 flex justify-between bg-gray-200 rounded-full px-5 items-center">
+            Mężczyzna 
+            <span class="justify-end text-xl">♂</span>
+          </div>
+        </label>
+      
+        <label for="other" class="block cursor-pointer mb-2">
+          <input type="radio" id="other" name="sex" value="other" class="peer hidden">
+          <div class="peer-checked:bg-blue-300 h-10 flex justify-between bg-gray-200 rounded-full px-5 items-center">
+            Inne 
+            <span class="justify-end text-xl">⚧</span>
+          </div>
+        </label>
+      </fieldset>
+    
+    <label for="nick" class="text-md/6 font-semibold px-2">Imię:</label>
+    <input type="text" id="nick" class="border-2 rounded-full mb-5">
+
+    <label for="birthdate" class="text-md/6 font-semibold px-2">Data urodzenia:</label>
+    <input type="date" id="birthdate" placeholder="dd.mm.rrrr" class="border-2 rounded-full mb-5">
+    <!-- @if (today: number = Date.now();) {
+      <h2>Happy birthday</h2>
+      } 
+      
+      check if person <18 y.o. then inform FBI 
+      -->
+
+  </div>
+  <div class="flex flex-col items-center">
+    <a href="/registration/2" class=" text-white py-3 px-8 rounded-full text-xl bg-pink-700 text-center w-3xs">Dalej</a>
+  </div>
+  </form>
+
+  <nav aria-label="Progress" class="flex flex-row absolute bottom-5">
+    <ol role="list" class="flex flex-row gap-10 text-5xl">
+      <li>
+        <!-- Completed Step -->
+        <a href="/registration/1">
+          <span class="map">🍎</span>
+        </a>
+      </li>
+      <li>
+        <!-- Current Step -->
+        <a href="/registration/2" aria-current="step" class="">
+          <span aria-hidden="true" class=""></span>
+          <span class="map">🍒</span>
+        </a>
+      </li>
+      <li class="mar mbq mca">
+        <!-- Upcoming Step -->
+        <a href="/registration/3" class="">
+          <span aria-hidden="true" class=""></span>
+          <span class="map">🍆</span>
+        </a>
+      </li>
+    </ol>
+  </nav>
+</div>

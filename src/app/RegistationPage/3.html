@@ -1,0 +1,94 @@
+<div class="bg-pink-50 min-h-[90vh] flex flex-col items-center justify-center align-middle bg-[url(/pics/register-pic.png)] bg-cover">
+  <form class="flex flex-col w-lg gap-5">
+    <div class="flex flex-col gap-1">
+      <div class="flex flex-col mb-10">
+        <h4 class="text-4xl font-bold">Zapraszamy, [imię]! Dlaczego tu jesteś?</h4>
+        <p>Wyraź to, chego chcesz z pewnością siebie, i znajdź odpowiednie osoby. Mozesz to zmienić w kazdej chwili</p>
+      </div>
+      <fieldset>
+        <legend class="text-md/6 font-semibold px-2"></legend>
+        <!--first option-->
+        <label for="meetings" class="block cursor-pointer mb-2">
+          <input type="radio" id="meetings" name="goal" value="meetings" class="peer hidden">
+          <div class="peer-checked:bg-blue-300 h-15 flex justify-between bg-gray-200 rounded-full px-5 items-center">
+          <div class="flex flex-col">
+            <span class="font-bold">Chcę się umówić</span>
+            Chcę umawiać się na randki i dobrze się bawić 
+            </div>
+            <span class="justify-end text-xl">☕️</span>
+          </div>
+        </label>
+        <!--second option-->
+        <label for="talking" class="block cursor-pointer mb-2">
+          <input type="radio" id="talking" name="goal" value="talking" class="peer hidden">
+          <div class="peer-checked:bg-blue-300 h-15 flex justify-between bg-gray-200 rounded-full px-5 items-center">
+          <div class="flex flex-col">
+            <span class="font-bold">Chcę zagrać w roleplay</span>
+            Chcę pogadać i zobaczyć co z tego wyjdzie. Bez presji 
+            </div>
+            <span class="justify-end text-xl">🎭</span>
+          </div>
+        </label>
+        <!--third option-->
+        <label for="cosplayer" class="block cursor-pointer mb-2">
+          <input type="radio" id="cosplayer" name="goal" value="cosplayer" class="peer hidden">
+          <div class="peer-checked:bg-blue-300 h-15 flex justify-between bg-gray-200 rounded-full px-5 items-center">
+          <div class="flex flex-col">
+            <span class="font-bold">Szukam cosplayera/rki dla XXX</span>
+            Chcę pobawić się z ulubioną postacią w łózku
+            </div>
+            <span class="justify-end text-xl">🔞</span>
+          </div>
+        </label>   
+      </fieldset>
+    
+    <!--localization-->
+    <div class="flex flex-col gap-2">
+      <label for="localization" class="text-md/6 font-semibold px-2">Wpisz swoje miasto:</label>
+      <input type="text" id="localization" name="localization" list="cities" placeholder="Wpisz..." class="border-2 rounded-full mb-5">
+      <datalist id="cities">
+        <option value="Warszawa">
+        <option value="Białystok">
+        <option value="Bydgoszcz">
+        <option value="Kraków">
+        <option value="Łódź">
+        <option value="Poznań">
+        <option value="Katowice">
+        <option value="Lublin">
+        <option value="Sosnowiec">
+        <option value="Trójmiasto">
+        <option value="Wrocław">
+      </datalist>
+    </div>
+
+  </div>
+  <div class="flex flex-col items-center">
+    <a href="/find" class=" text-white py-3 px-8 rounded-full text-xl bg-pink-700 text-center w-3xs">Zaczynamy</a>
+  </div>
+  </form>
+
+  <nav aria-label="Progress" class="flex flex-row absolute bottom-5">
+    <ol role="list" class="flex flex-row gap-10 text-5xl">
+      <li>
+        <!-- Completed Step -->
+        <a href="/registration/1">
+          <span class="map">🍎</span>
+        </a>
+      </li>
+      <li>
+        <!-- Current Step -->
+        <a href="/registration/2" aria-current="step" class="">
+          <span aria-hidden="true" class=""></span>
+          <span class="map">🍒</span>
+        </a>
+      </li>
+      <li class="mar mbq mca">
+        <!-- Upcoming Step -->
+        <a href="/registration/3" class="">
+          <span aria-hidden="true" class=""></span>
+          <span class="map">🍆</span>
+        </a>
+      </li>
+    </ol>
+  </nav>
+</div>
