@@ -5,10 +5,11 @@ import { RegistationPage } from './RegistationPage/registration';
 import { Registation1 } from './RegistationPage/1';
 import { Registation2 } from './RegistationPage/2';
 import { Registation3 } from './RegistationPage/3';
+import { Page404 } from './Page404/404';
 
 export const routes: Routes = [
     {
-       path: '',
+       path: 'home',
        component: HomePage,
     },
     {
@@ -26,17 +27,21 @@ export const routes: Routes = [
             },
             {
                 path: '1',
-            component: Registation1,
+                component: Registation1,
             },
             {
                 path: '2',
-            component: Registation2,
+                component: Registation2,
             },
             {
                 path: '3',
-            component: Registation3,
+                component: Registation3,
             },
-
+            
         ]
+    },
+    {
+        path: '**',
+        component: Page404,
     },
 ];
