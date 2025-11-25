@@ -6,6 +6,7 @@ import { Registation1 } from './RegistationPage/1';
 import { Registation2 } from './RegistationPage/2';
 import { Registation3 } from './RegistationPage/3';
 import { Page404 } from './Page404/404';
+import { SearchCouplePage } from './SearchCouplePage/search_couple';
 
 export const routes: Routes = [
     {
@@ -39,6 +40,10 @@ export const routes: Routes = [
             },
             
         ]
+    },
+    {
+        path: 'search',
+        component: SearchCouplePage,
     },
     {
         path: '**',

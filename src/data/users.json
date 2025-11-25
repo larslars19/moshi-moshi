@@ -1,0 +1,213 @@
+[
+    {
+      "basic_info": {
+        "nickname": "SakuraFox",
+        "age": 22,
+        "location": "Warszawa",
+        "gender": "female",
+        "orientation": "hetero",
+        "looking_for": ["relationship"],
+        "description": "Uwielbiam anime romance i rysuję mangowe OC.",
+        "photos": ["sakura1.jpg", "sakura2.jpg"]
+      },
+      "otaku_profile": {
+        "favorite_genres": ["shoujo", "romance", "slice of life"],
+        "top_anime": ["Your Name", "Fruits Basket", "Toradora"],
+        "top_characters": ["Tohru Honda", "Mikasa Ackerman", "Komi Shouko"]
+      },
+      "personality": {
+        "personality_type": "INFJ",
+        "free_time_activities": ["rysowanie", "oglądanie anime", "czytanie mang"]
+      }
+    },
+    {
+      "basic_info": {
+        "nickname": "AkiraBlade",
+        "age": 28,
+        "location": "Kraków",
+        "gender": "male",
+        "orientation": "bi",
+        "looking_for": ["friendship", "dating"],
+        "description": "Hardcore otaku, fan mecha i retro anime.",
+        "photos": ["akira_mecha.png"]
+      },
+      "otaku_profile": {
+        "favorite_genres": ["mecha", "action", "seinen"],
+        "top_anime": ["Evangelion", "Gundam UC", "Akira"],
+        "top_characters": ["Char Aznable", "Spike Spiegel", "Guts"]
+      },
+      "personality": {
+        "personality_type": "INTP",
+        "free_time_activities": ["gry", "konwenty", "model kits"]
+      }
+    },
+    {
+      "basic_info": {
+        "nickname": "NekoMimi",
+        "age": 19,
+        "location": "Poznań",
+        "gender": "female",
+        "orientation": "bi",
+        "looking_for": ["dating"],
+        "description": "Cosplayerka, kocham kocie uszka i pastel aesthetic.",
+        "photos": ["neko_cosplay1.jpg", "neko_catgirl.jpg"]
+      },
+      "otaku_profile": {
+        "favorite_genres": ["komedia", "romance", "fantasy"],
+        "top_anime": ["K-On!", "SAO", "Jujutsu Kaisen"],
+        "top_characters": ["Zero Two", "Nezuko", "Holo"]
+      },
+      "personality": {
+        "personality_type": "ENFP",
+        "free_time_activities": ["cosplay", "TikTok", "anime maratony"]
+      }
+    },
+    {
+      "basic_info": {
+        "nickname": "ShiroWolf",
+        "age": 25,
+        "location": "Gdańsk",
+        "gender": "male",
+        "orientation": "hetero",
+        "looking_for": ["relationship"],
+        "description": "Introvert gamer, szukam kogoś do wspólnych sesji anime.",
+        "photos": ["wolf_profile.jpg"]
+      },
+      "otaku_profile": {
+        "favorite_genres": ["fantasy", "action", "isekai"],
+        "top_anime": ["Re:Zero", "Attack on Titan", "Fullmetal Alchemist"],
+        "top_characters": ["Levi", "Ainz Ooal Gown", "Gojo Satoru"]
+      },
+      "personality": {
+        "personality_type": "ISTP",
+        "free_time_activities": ["gaming", "siłownia", "anime"]
+      }
+    },
+    {
+      "basic_info": {
+        "nickname": "HoshiChan",
+        "age": 21,
+        "location": "Łódź",
+        "gender": "female",
+        "orientation": "hetero",
+        "looking_for": ["friendship", "dating"],
+        "description": "Studiuję grafikę, rysuję fanarty z Genshina.",
+        "photos": ["hoshi_art.jpg", "hoshi_genshin.jpg"]
+      },
+      "otaku_profile": {
+        "favorite_genres": ["fantasy", "shoujo", "slice of life"],
+        "top_anime": ["Violet Evergarden", "Demon Slayer", "Kimi ni Todoke"],
+        "top_characters": ["Violet", "Shinobu", "Hinata Hyuga"]
+      },
+      "personality": {
+        "personality_type": "INFP",
+        "free_time_activities": ["rysowanie", "gry", "kawy z przyjaciółmi"]
+      }
+    },
+    {
+      "basic_info": {
+        "nickname": "OtakuSensei",
+        "age": 30,
+        "location": "Wrocław",
+        "gender": "male",
+        "orientation": "hetero",
+        "looking_for": ["relationship"],
+        "description": "Oldschool anime nerd, kolekcjoner figurek.",
+        "photos": ["sensei_room.jpg"]
+      },
+      "otaku_profile": {
+        "favorite_genres": ["seinen", "psychological", "mystery"],
+        "top_anime": ["Monster", "Death Note", "Psycho-Pass"],
+        "top_characters": ["L", "Johan Liebert", "Makise Kurisu"]
+      },
+      "personality": {
+        "personality_type": "INTJ",
+        "free_time_activities": ["czytanie LN", "Figurki", "programowanie"]
+      }
+    },
+    {
+      "basic_info": {
+        "nickname": "KawaiiPenguin",
+        "age": 18,
+        "location": "Katowice",
+        "gender": "non-binary",
+        "orientation": "pan",
+        "looking_for": ["friendship", "dating"],
+        "description": "Uwielbiam słodkie rzeczy i studio Ghibli.",
+        "photos": []
+      },
+      "otaku_profile": {
+        "favorite_genres": ["slice of life", "komedia", "shoujo"],
+        "top_anime": ["Totoro", "K-On!", "Horimiya"],
+        "top_characters": ["Chihiro", "Aqua (Konosuba)", "Mai Sakurajima"]
+      },
+      "personality": {
+        "personality_type": "ENFJ",
+        "free_time_activities": ["rysowanie", "gotowanie", "anime"]
+      }
+    },
+    {
+      "basic_info": {
+        "nickname": "RyuDrake",
+        "age": 27,
+        "location": "Szczecin",
+        "gender": "male",
+        "orientation": "hetero",
+        "looking_for": ["dating"],
+        "description": "Fan shounenów i treningów na siłowni.",
+        "photos": ["ryu_gym.jpg"]
+      },
+      "otaku_profile": {
+        "favorite_genres": ["shounen", "action", "sport"],
+        "top_anime": ["Naruto", "Haikyuu!!", "One Piece"],
+        "top_characters": ["Rock Lee", "Tanjiro", "Zoro"]
+      },
+      "personality": {
+        "personality_type": "ESTP",
+        "free_time_activities": ["siłownia", "gry", "anime"]
+      }
+    },
+    {
+      "basic_info": {
+        "nickname": "MisoSoup",
+        "age": 23,
+        "location": "Bydgoszcz",
+        "gender": "female",
+        "orientation": "bi",
+        "looking_for": ["friendship"],
+        "description": "Domator, uwielbiam chillowe anime i gotowanie.",
+        "photos": ["miso_food.jpg"]
+      },
+      "otaku_profile": {
+        "favorite_genres": ["slice of life", "romance", "fantasy"],
+        "top_anime": ["Non Non Biyori", "Mushishi", "Spice and Wolf"],
+        "top_characters": ["Holo", "Shinobu Oshino", "Saber"]
+      },
+      "personality": {
+        "personality_type": "ISFJ",
+        "free_time_activities": ["gotowanie", "anime", "manga"]
+      }
+    },
+    {
+      "basic_info": {
+        "nickname": "KyotoSamurai",
+        "age": 26,
+        "location": "Warszawa",
+        "gender": "male",
+        "orientation": "hetero",
+        "looking_for": ["relationship"],
+        "description": "Fan historii Japonii, kendo i anime samurajskich.",
+        "photos": ["samurai_kendo.jpg"]
+      },
+      "otaku_profile": {
+        "favorite_genres": ["historical", "action", "seinen"],
+        "top_anime": ["Samurai Champloo", "Vagabond (manga)", "Dororo"],
+        "top_characters": ["Mugen", "Thorfinn", "Kenshin Himura"]
+      },
+      "personality": {
+        "personality_type": "ISTJ",
+        "free_time_activities": ["kendo", "podróże", "anime"]
+      }
+    }
+  ]
+  
